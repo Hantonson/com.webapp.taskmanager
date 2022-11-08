@@ -1,0 +1,58 @@
+#menuLayer{
+    max-height: 10vh !important;
+    height: 10vh !important;
+    background: rgb(255,255,255)!important;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 95%, rgba(156,146,146,1) 100%)!important;
+}
+
+    .navbarColumn{
+        background-color: rgb(37,40,58) !important;
+        max-height: 100vh !important;
+        max-width: 35vh !important;
+        
+    }
+
+    .offcanvas-title{
+        color: white !important;
+    }
+
+    .nav-link{
+        color: whitesmoke !important;
+    }
+
+    #profile{
+        position: absolute !important;
+        bottom: 0 !important;
+    }
+        .profileContent{
+            background-color: rgb(240, 240, 240);
+            /*position: fixed;*/
+            padding: 0 !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 200;
+        }
+    
+#contentLayer{
+    max-height: 80vh !important;
+    height: 80vh !important;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#contentLayer::-webkit-scrollbar {
+    display: none;
+  }
+
+#footerLayer{
+    max-height: 10vh !important;
+    height: 10vh!important;
+    background-color: rgb(37,40,58) !important;
+    color: whitesmoke !important;
+}
