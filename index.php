@@ -32,8 +32,8 @@ session_start();
     <div id="contentLayer">
         <div class="container">
         <?php
-        require_once 'controller/C_Navbar.php';
-        (new C_Navbar())->getStart();
+        require_once 'views/ViewHandler.php';
+        ViewHandler::render('views/start/V_Start.php');
         ?>
         </div>
     </div>
